@@ -1,4 +1,4 @@
-"""meme.
+"""App.
 
 This script requires that the 'random', 'requests', 'flask',
 'os', and 'urllib.parse' libraries be installed within the
