@@ -11,7 +11,7 @@ Setting Up This Yourself
 
 Running the Code
 To run this application via Python arg variables:
-1. In the terminal, run 'python ./src/meme.py' with the optional commands of a string quote body, string quote author, and an image path.
+1. In the terminal, run 'python ./src/meme.py' with the optional commands of 'body' (a string quote body), 'author' (a string quote author), and 'path' (an image path).
 
 To run this application on a web interface: 
 1. In the terminal, run 'python ./src/app.py'
