@@ -1,17 +1,16 @@
 # meme_generator
 
+
 The goal of this project is to build a "meme generator" – a multimedia application to dynamically generate memes, including an image with an overlaid quote.
 
 Setting Up This Yourself
 
-Install the packages listed in requirements.txt
-
-Download and install the pdftotext tool: https://www.xpdfreader.com/download.html
-
-Run the Application
-The application can be run with the following command:
-- python app.py
-The application can be accessed at: https://localhost:5000
+1. Download this repository in a zipped folder and unzip it anywhere in your directory as you'd like. 
+2. Open a command prompt/terminal in the root meme_generator-main folder (the name of the repository's zipped folder when the file was downloaded).
+3. Run 'pip install -r requirements.txt' to install the libraries needed for the project.
+4. Download and install the pdftotext tool: https://www.xpdfreader.com/download.html
+5. To start the application, run 'python ./src/app.py'
+6. The application can be accessed at: https://localhost:5000
 
 Sub-Modules
 - QuoteEngine is a class that holds the body and author of a quote
@@ -21,6 +20,9 @@ Each of the sub-modules below realize the IngestorInterface which acts as a temp
 - PDFIngestor: uses the pdftotext subprocess to create a list of QuoteModels from a pdf file
 - DocxIngestor: uses the docx library to create a list of QuoteModels from a docx file
 - TextIngestor: uses the built-in python libraries to create a list of QuoteModels from a txt file
+
+
+
 
 
 
