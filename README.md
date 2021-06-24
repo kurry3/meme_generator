@@ -4,11 +4,12 @@
 The goal of this project is to build a "meme generator" – a multimedia application to dynamically generate memes, including an image with an overlaid quote.
 
 Setting Up This Yourself
-
 1. Download this repository in a zipped folder and unzip it anywhere in your directory as you'd like. 
 2. Open a command prompt/terminal in the root meme_generator-main folder (the name of the repository's zipped folder when the file was downloaded).
 3. Run 'pip install -r requirements.txt' to install the libraries needed for the project.
 4. Download and install the pdftotext tool: https://www.xpdfreader.com/download.html
+
+Running the Code
 To run this application via Python arg variables:
 1. In the terminal, run 'python ./src/meme.py' with the optional commands of a string quote body, string quote author, and an image path.
 
