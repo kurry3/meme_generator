@@ -9,8 +9,12 @@ Setting Up This Yourself
 2. Open a command prompt/terminal in the root meme_generator-main folder (the name of the repository's zipped folder when the file was downloaded).
 3. Run 'pip install -r requirements.txt' to install the libraries needed for the project.
 4. Download and install the pdftotext tool: https://www.xpdfreader.com/download.html
-5. To start the application, run 'python ./src/app.py'
-6. The application can be accessed at: https://localhost:5000
+To run this application via Python arg variables:
+1. In the terminal, run 'python ./src/meme.py' with the optional commands of a string quote body, string quote author, and an image path.
+
+To run this application on a web interface: 
+1. In the terminal, run 'python ./src/app.py'
+2. The application can be accessed at: https://localhost:5000
 
 Sub-Modules
 - QuoteEngine is a class that holds the body and author of a quote
