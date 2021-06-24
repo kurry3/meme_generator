@@ -1,7 +1,7 @@
 """meme.
 
 This script requires that the 'random', 'requests', 'flask',
-and 'os' libraries be installed within the Python environment
+'os', and 'urllib.parse' libraries be installed within the Python environment
 this script is being run in.
 """
 import random
